@@ -1,16 +1,16 @@
 package com.example.noteit;
 
-public class fireBaseModel {
+public class FireBaseModel {
 
     //upload and fetch variable should be same
     private String title;
     private String content;
 
-    public fireBaseModel(){
+    public FireBaseModel(){
 
     }
 
-    public fireBaseModel(String title, String content){
+    public FireBaseModel(String title, String content){
         this.title = title;
         this.content = content;
     }
