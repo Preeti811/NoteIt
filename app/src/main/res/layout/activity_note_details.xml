@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noteDetails">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarOfNoteDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="641dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/titleOfNoteDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="30sp"
+            android:text="@string/tittle_displayed_here"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/contentOfNoteDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="601dp"
+        android:layout_below="@id/toolBarOfNoteDetail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFF0F5"
+        android:gravity="top|start"
+        android:hint="@string/type_here"
+        android:padding="15dp"
+        android:textColor="@color/Black"
+        android:textSize="17sp">
+
+    </TextView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/goToEditNote"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="635dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="46dp"
+        android:background="#A1f4AB"
+        android:src="@drawable/ic_baseline_edit_24"
+
+        app:maxImageSize="40dp"
+        android:contentDescription="TODO">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+</RelativeLayout>
